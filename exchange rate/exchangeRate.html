@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курс валют</title>
+</head>
+<body>
+    <h1>Курс валют</h1>
+
+  
+    <div id="currency-converter">
+        <label for="base-currency">Из валюты:</label>
+        <select id="base-currency">
+            <option value="RUB">RUB</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+          
+        </select>
+
+        <label for="target-currency">В валюту:</label>
+        <select id="target-currency">
+            <option value="RUB">RUB</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+           
+        </select>
+
+        <button id="get-rate">Узнать курс</button>
+    </div>
+
+    
+    <h2 id="rate-result">Курс обмена: -</h2>
+
+
+    <script src="codeExchangeRate.js"></script>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html> — указывает тип документа (HTML5).
+<html> — корневой элемент HTML-документа.
+<head> — контейнер для мета-информации документа (например, <title>, <meta>, <style>, <script>).
+<title> — заголовок страницы, отображается в заголовке вкладки браузера.
+body> — основное содержимое веб-страницы. 
+
+<form> — контейнер для формы.
+<input> — различные типы полей ввода (например, текст, email, пароль).
+<textarea> — многострочное текстовое поле.
+<button> — кнопка.
+<select>, <option> — выпадающий список и элементы списка.
+<label> — текстовая метка для элемента формы.
+
+
+  <header> — заголовок страницы или раздела.
+<footer> — нижний колонтитул страницы или раздела.
+<section> — тематический блок или раздел.
+<article> — независимый блок, например, статья.
+<aside> — контент, связанный с основным содержанием, но второстепенный.
+<main> — основной контент страницы.
+<figure>, <figcaption> — медиа-контейнер и его описание.
+-->
